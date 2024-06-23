@@ -1,0 +1,253 @@
+body {
+    background: linear-gradient(#855bb2, #E2D4F1FF) no-repeat;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.info {
+    margin-bottom: 10px;
+}
+.label {
+    font-weight: bold;
+}
+.side-image {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-470%);
+}
+#mail{
+    text-decoration: none;
+    font-family: "DejaVu Serif";
+    color:pink;
+}
+#mail :hover{
+    color:purple;
+}
+
+.education-section {
+    margin-bottom: 20px;
+}
+
+.education-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.institution, .dates {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.courses ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.courses ul li {
+    margin-bottom: 5px;
+    padding-left: 25px;
+    background: url('dice.png') no-repeat left center;
+    background-size: 20px 20px; 
+}
+.institution {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.dates {
+    color: #555;
+    margin-bottom: 10px;
+}
+.courses {
+    margin-left: 20px;
+}
+.course {
+    margin-bottom: 5px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.section {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.section-title {
+    font-weight: bold;
+    font-family: "DejaVu Serif";
+    text-decoration: indigo;
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.language-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.language {
+    font-weight: lighter;
+    font-size: small;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.language img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin: 20px;
+}
+.language .titleof{
+    display: block;
+    margin:10px;
+    border: 5px dotted black;
+    padding: 10px;
+}
+
+
+.skill {
+    margin-left: 20px;
+}
+.driver-license {
+    margin-top: 20px;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #855bb2;
+    height: 40px;
+    padding: 50px 200px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "ui-serif", "Noto Serif Armenian", sans-serif;
+    text-decoration: indigo;
+    margin-top: 0;
+    float: left;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: serif;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #ff69b4;
+    border-radius: 5px;
+}
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    float: left;
+    line-height: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    line-height: 40px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #855bb2;
+    padding: 10px 0;
+}
+
+.logo-space {
+    text-align: center;
+}
+
+.logo-space a {
+    display: inline-block;
+    margin: 0 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.logo-space img {
+    width: 100px;
+    height: auto;
+}
+
+.logo-space a:hover {
+    background-color: #8a2be2;
+}
+.section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: right;
+}
+
+.images img[src="license.png"] {
+    border-radius: 5px;
+    width: 120px;
+    display: inline-block;
+}
+
+.languages {
+    float: right;
+    display: inline-block;
+    width: 50%;
+}
+
+.other-skills {
+    float: right;
+    width: 50%;
+
+}
